@@ -27,10 +27,22 @@ body{
   display: flex;
   align-items: center;
 }
-
+#homeLink {
+  background-color: #00A5BF;
+}
+#calenderLink {
+  background-color: #00B7D3;
+}
+#joinLink {
+  background-color: #00D5E7;
+}
 p {
   font-size: 12px;
 }
 #section-1 {
   padding: 7px 20px;
+}
+h2 {
+  background-color: #0B1942;
+  color: #FFFFFF;
 }
