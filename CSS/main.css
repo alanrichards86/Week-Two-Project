@@ -1,9 +1,13 @@
 
+/*@media screen and (min-width:320px) and (max-width: 540px) {*/
+
 body{
-  margin:0;
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
 }
 .primary-nav {
-  height: 200px;
+  height: 145px;
   display: flex;
 }
 .primary-nav ul {
@@ -16,16 +20,25 @@ body{
   width: 100%;
 }
 .primary-nav #logo {
-  background-color: red;
+  background-color: #F5005B;
   width: 30%;
-  height: 100%;
+  max-width: 105px;
+  padding: 13px;
 
+}
+.primary-nav #logo img {
+
+  max-height: 100%;
 }
 .primary-nav li {
   flex-grow: 1;
   justify-content:center;
   display: flex;
   align-items: center;
+}
+.primary-nav a {
+  text-decoration: none;
+  color: #fff;
 }
 #homeLink {
   background-color: #00A5BF;
@@ -36,8 +49,9 @@ body{
 #joinLink {
   background-color: #00D5E7;
 }
-p {
+#section-1 p {
   font-size: 12px;
+  line-height: 1.8;
 }
 #section-1 {
   padding: 7px 20px;
@@ -45,4 +59,83 @@ p {
 h2 {
   background-color: #0B1942;
   color: #FFFFFF;
+  font-weight: 400;
+}
+header h2 {
+  background-color: inherit;
+  padding: 10px 0;
+  color: #0B1942;
+  margin-bottom: -10px;
+  margin-top: 0px;
+}
+.section-h2 {
+  padding: 10px;
+}
+#section-2 {
+  background-color: #0B1942;
+  padding: 15px;
+  max-height: 1100px;
+}
+#section-2 h2 {
+  margin: 0 0 13px 12px;
+  font-size: 32px;
+}
+.firstMovie {
+  min-height: 290px;
+  background-color: #E2E2E2;
+  margin: 5px 0;
+  display: flex;
+}
+.firstMovie img {
+  width: 38vw;
+  height: 32vh;
+  padding: 15px;
+  object-fit: contain;
+}
+.infoDiv {
+  width: 50%;
+}
+.infoDiv a {
+  color: #20b8d0
+}
+.infoDiv p {
+  font-size: 15px;
+  margin-top: -10px;
+}
+.firstMovie hr {
+  border: 1px solid black;
+}
+.infoDiv li {
+  line-height: 1.8;
+  list-style-type: circle;
+}
+.discuss-p {
+  margin-top: 10px !important;
+}
+.section-2-B {
+  background-color: #E2E2E2;
+  text-align: center;
+}
+.s2Movie {
+  width: 48%;
+  display: inline-block;
+  padding: 9px;
+  box-sizing: border-box;
+  padding: 8px;
+  max-width: 185px;
+
+}
+.s2Movie img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
 }
