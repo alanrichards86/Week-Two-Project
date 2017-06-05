@@ -96,7 +96,8 @@ header h2 {
   width: 50%;
 }
 .infoDiv a {
-  color: #20b8d0
+  color: #20b8d0;
+  font-weight: 100;
 }
 .infoDiv p {
   font-size: 15px;
@@ -123,10 +124,22 @@ header h2 {
   box-sizing: border-box;
   padding: 8px;
   max-width: 185px;
-
 }
 .s2Movie img {
   width: 100%;
+}
+.s2Movie a {
+  color: #20b8d0;
+  margin: 0;
+  font-size: .7em;
+  font-weight: 100;
+}
+.s2Movie a, p {
+  display: flex;
+  margin-top: -2vh;
+}
+.s2Movie p {
+  font-size: .85em;
 }
 
 
