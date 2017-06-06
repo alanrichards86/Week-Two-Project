@@ -1,5 +1,5 @@
 
-/*@media screen and (min-width:320px) and (max-width: 540px) {*/
+@media screen and (min-width:320px) {
 
 body{
   margin: 0;
@@ -7,7 +7,7 @@ body{
   font-weight: 400;
 }
 .primary-nav {
-  height: 145px;
+  height: 7.5em;
   display: flex;
 }
 .primary-nav ul {
@@ -68,8 +68,21 @@ header h2 {
   margin-bottom: -10px;
   margin-top: 0px;
 }
+.section-main-div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+ .section-d {
+  display: flex;
+  flex-wrap: wrap;
+  width: 14em;
+  margin-left: 10%;
+}
+
 .section-h2 {
   padding: 10px;
+  width: 14em;
 }
 #section-2 {
   background-color: #0B1942;
@@ -141,9 +154,33 @@ header h2 {
 .s2Movie p {
   font-size: .85em;
 }
-
-
-
+footer {
+  background-color: red;
+  height: 26vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1
+}
+footer nav {
+  display: flex;
+  flex-direction: column;
+  height: 7.5em;
+}
+/*footer nav div {
+  flex-grow: 1;
+  justify-content: center;
+}*/
+#bottomHomeDiv {
+  background-color: #00A5BF;
+}
+#bottomCalanderDiv {
+  background-color: #00B7D3;
+}
+#bottomJoinDiv {
+  background-color: #00D5E7;
+}
 
 
 
