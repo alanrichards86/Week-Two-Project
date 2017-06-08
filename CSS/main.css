@@ -27,7 +27,6 @@ body{
 
 }
 .primary-nav #logo img {
-
   max-height: 100%;
 }
 .primary-nav li {
@@ -76,8 +75,7 @@ header h2 {
  .section-d {
   display: flex;
   flex-wrap: wrap;
-  width: 14em;
-  margin-left: 10%;
+  width: 20em;
 }
 
 .section-h2 {

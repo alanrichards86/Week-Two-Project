@@ -1,0 +1,70 @@
+body{
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+}
+.primary-nav {
+  height: 7.5em;
+  display: flex;
+}
+.primary-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.primary-nav #logo {
+  background-color: #F5005B;
+  width: 30%;
+  max-width: 105px;
+  padding: 13px;
+
+}
+.primary-nav #logo img {
+  max-height: 100%;
+}
+.primary-nav li {
+  flex-grow: 1;
+  justify-content:center;
+  display: flex;
+  align-items: center;
+}
+.primary-nav a {
+  text-decoration: none;
+  color: #fff;
+}
+#homeLink {
+  background-color: #00A5BF;
+}
+#calenderLink {
+  background-color: #00B7D3;
+}
+#joinLink {
+  background-color: #00D5E7;
+}
+header {
+  height: 7vh;
+  display: flex;
+  padding: 1em;
+  align-items: center;
+}
+header h2 {
+  font-weight: 100;
+}
+.month {
+  background-color: #0B1942;
+  height: 10vh;
+  display: flex;
+  padding-left: 1em;
+}
+.month h3 {
+  color: white;
+  font-weight: 100;
+}
+.week {
+  display: flex;
+  flex-direction: row;
+}
